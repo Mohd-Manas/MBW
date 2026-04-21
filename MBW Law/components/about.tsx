@@ -67,7 +67,7 @@ export function About() {
               Who We Are..
             </span>
             <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-[#1E3A5F] mb-6 leading-tight">
-              Precision. Integrity. Results.
+              Precision. Integrity. Results..
             </h2>
             <p className="text-[#4A5568] mb-6 leading-relaxed">
               Optimas Legal Partners is a boutique advisory firm serving corporates, 
