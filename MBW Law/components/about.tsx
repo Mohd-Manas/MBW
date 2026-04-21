@@ -64,7 +64,7 @@ export function About() {
             transition={{ duration: 0.7, delay: 0.2 }}
           >
             <span className="inline-block text-[#D4AF37] text-sm tracking-[0.3em] uppercase font-medium mb-4">
-              Who We Are
+              Who We Are..
             </span>
             <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-[#1E3A5F] mb-6 leading-tight">
               Precision. Integrity. Results.
