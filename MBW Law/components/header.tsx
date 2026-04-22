@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react"
 import Link from "next/link"
+import Image from "next/image"
 import { Menu, X, Mail } from "lucide-react"
 import { motion, AnimatePresence } from "framer-motion"
 
@@ -38,17 +39,23 @@ export function Header() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3">
-            <div className="w-12 h-12 bg-[#D4AF37] rounded-sm flex items-center justify-center">
-              <span className="font-serif text-2xl font-bold text-[#1E3A5F]">O</span>
-            </div>
-            <div className="hidden sm:block">
+            <Image
+              src="/images/OptimasLegalLogo_Transparent.png"
+              alt="Optimas Legal Logo"
+              width={88}
+              height={88}
+              className="rounded-sm"
+              priority
+              style={{ filter: !isScrolled ? "brightness(0) invert(1)" : "none" }}
+            />
+            {/* <div className="hidden sm:block">
               <h1 className={`font-serif text-xl font-bold leading-tight ${isScrolled ? 'text-[#1E3A5F]' : 'text-[#F8F6F2]'}`}>
                 Optimas Legal
               </h1>
               <p className={`text-xs tracking-wider uppercase ${isScrolled ? 'text-[#4A5568]' : 'text-[#F8F6F2]/80'}`}>
                 Partners
               </p>
-            </div>
+            </div> */}
           </Link>
 
           {/* Desktop Navigation */}

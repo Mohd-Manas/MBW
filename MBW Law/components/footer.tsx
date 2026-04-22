@@ -1,6 +1,7 @@
 "use client"
 
 import Link from "next/link"
+import Image from "next/image"
 import { 
   Facebook, 
   Twitter, 
@@ -45,17 +46,22 @@ export function Footer() {
           {/* Company Info */}
           <div>
             <div className="flex items-center gap-3 mb-6">
-              <div className="w-12 h-12 bg-[#D4AF37] rounded-sm flex items-center justify-center">
-                <span className="font-serif text-2xl font-bold text-[#1E3A5F]">O</span>
-              </div>
-              <div>
+              <Image
+                src="/images/OptimasLegalLogo_Transparent.png"
+                alt="Optimas Legal Logo"
+                width={88}
+                height={88}
+                className="rounded-sm"
+                style={{ filter: "brightness(0) invert(1)" }}
+              />
+              {/* <div>
                 <h3 className="font-serif text-xl font-bold leading-tight">
                   Optimas Legal
                 </h3>
                 <p className="text-xs text-[#D4AF37] tracking-wider uppercase">
                   Partners
                 </p>
-              </div>
+              </div> */}
             </div>
             <p className="text-[#A0AEC0] text-sm leading-relaxed mb-6">
               Boutique legal excellence across the UAE and international markets. 
