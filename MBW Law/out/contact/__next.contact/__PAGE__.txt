@@ -1,0 +1,10 @@
+1:"$Sreact.fragment"
+2:I[59024,["/_next/static/chunks/09jbyhsq7g8hb.js","/_next/static/chunks/0blot5w18a.r7.js","/_next/static/chunks/13g48nq4b6139.js","/_next/static/chunks/0kyuxbi.2toji.js"],"Header"]
+3:I[42390,["/_next/static/chunks/09jbyhsq7g8hb.js","/_next/static/chunks/0blot5w18a.r7.js","/_next/static/chunks/13g48nq4b6139.js","/_next/static/chunks/0kyuxbi.2toji.js"],"PageHero"]
+4:I[67653,["/_next/static/chunks/09jbyhsq7g8hb.js","/_next/static/chunks/0blot5w18a.r7.js","/_next/static/chunks/13g48nq4b6139.js","/_next/static/chunks/0kyuxbi.2toji.js"],"Contact"]
+5:I[96533,["/_next/static/chunks/09jbyhsq7g8hb.js","/_next/static/chunks/0blot5w18a.r7.js","/_next/static/chunks/13g48nq4b6139.js","/_next/static/chunks/0kyuxbi.2toji.js"],"Footer"]
+6:I[73952,["/_next/static/chunks/09jbyhsq7g8hb.js","/_next/static/chunks/0blot5w18a.r7.js","/_next/static/chunks/13g48nq4b6139.js","/_next/static/chunks/0kyuxbi.2toji.js"],"FloatingButtons"]
+7:I[16280,["/_next/static/chunks/09jbyhsq7g8hb.js","/_next/static/chunks/0blot5w18a.r7.js"],"OutletBoundary"]
+8:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[["$","main",null,{"className":"min-h-screen","children":[["$","$L2",null,{}],["$","$L3",null,{"title":"Contact Us","subtitle":"Ready to discuss your legal needs? Contact us today and let our experienced team provide the strategic guidance you need.","breadcrumb":"Get In Touch"}],["$","$L4",null,{}],["$","$L5",null,{}],["$","$L6",null,{}]]}],[["$","script","script-0",{"src":"/_next/static/chunks/13g48nq4b6139.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/0kyuxbi.2toji.js","async":true}]],["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"WPrLKreImin4WclLDG7Tv"}
+9:null

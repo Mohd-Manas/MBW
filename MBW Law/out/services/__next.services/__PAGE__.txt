@@ -1,0 +1,10 @@
+1:"$Sreact.fragment"
+2:I[59024,["/_next/static/chunks/09jbyhsq7g8hb.js","/_next/static/chunks/0blot5w18a.r7.js","/_next/static/chunks/09uiu-~2jmrwf.js","/_next/static/chunks/0_x1y5i_3k1va.js"],"Header"]
+3:I[42390,["/_next/static/chunks/09jbyhsq7g8hb.js","/_next/static/chunks/0blot5w18a.r7.js","/_next/static/chunks/09uiu-~2jmrwf.js","/_next/static/chunks/0_x1y5i_3k1va.js"],"PageHero"]
+4:I[28548,["/_next/static/chunks/09jbyhsq7g8hb.js","/_next/static/chunks/0blot5w18a.r7.js","/_next/static/chunks/09uiu-~2jmrwf.js","/_next/static/chunks/0_x1y5i_3k1va.js"],"Services"]
+5:I[96533,["/_next/static/chunks/09jbyhsq7g8hb.js","/_next/static/chunks/0blot5w18a.r7.js","/_next/static/chunks/09uiu-~2jmrwf.js","/_next/static/chunks/0_x1y5i_3k1va.js"],"Footer"]
+6:I[73952,["/_next/static/chunks/09jbyhsq7g8hb.js","/_next/static/chunks/0blot5w18a.r7.js","/_next/static/chunks/09uiu-~2jmrwf.js","/_next/static/chunks/0_x1y5i_3k1va.js"],"FloatingButtons"]
+7:I[16280,["/_next/static/chunks/09jbyhsq7g8hb.js","/_next/static/chunks/0blot5w18a.r7.js"],"OutletBoundary"]
+8:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[["$","main",null,{"className":"min-h-screen","children":[["$","$L2",null,{}],["$","$L3",null,{"title":"Our Services","subtitle":"Expert legal services tailored to meet the complex needs of businesses and individuals across the UAE and international markets.","breadcrumb":"Services"}],["$","$L4",null,{}],["$","$L5",null,{}],["$","$L6",null,{}]]}],[["$","script","script-0",{"src":"/_next/static/chunks/09uiu-~2jmrwf.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/0_x1y5i_3k1va.js","async":true}]],["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"WPrLKreImin4WclLDG7Tv"}
+9:null
