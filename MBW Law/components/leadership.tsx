@@ -6,15 +6,15 @@ import { useRef } from "react"
 import { Linkedin } from "lucide-react"
 
 const leaders = [
-  {
-    name: "Deepak Kumar Sah",
-    role: "Founder & Managing Director",
-    image: "/images/deepak-kumar-sah.png",
-    description: "Seasoned legal and compliance professional specializing in AML/CFT frameworks, regulatory licensing, corporate governance, and cross-border structuring. Deep expertise across SCA/CMA, VARA, and DIFC regulatory environments.",
-  },
+  // {
+  //   name: "Deepak Kumar Sah",
+  //   role: "Founder & Managing Director",
+  //   image: "/images/deepak-kumar-sah.png",
+  //   description: "Seasoned legal and compliance professional specializing in AML/CFT frameworks, regulatory licensing, corporate governance, and cross-border structuring. Deep expertise across SCA/CMA, VARA, and DIFC regulatory environments.",
+  // },
   {
     name: "Sanjana Sharan",
-    role: "Co-Founder & Strategic Advisor",
+    role: "Director  & Strategic Advisor",
     image: "/images/sanjana-sharan.png",
     description: "Brings a strategic, client-focused perspective with expertise in business advisory, client relationship management, and operational structuring. She drives client engagement, strategic planning, and seamless delivery of legal and business solutions - combining strategic thinking with operational efficiency.",
   },
