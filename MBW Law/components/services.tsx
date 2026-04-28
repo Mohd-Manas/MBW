@@ -32,7 +32,7 @@ const mainServices = [
   {
     icon: Landmark,
     title: "Finance & Banking",
-    description: "Financial transactions, regulatory compliance, and banking disputes.",
+    description: "Financial Transactions, Regulatory Compliance, and Banking Disputes.",
   },
   {
     icon: FileText,
