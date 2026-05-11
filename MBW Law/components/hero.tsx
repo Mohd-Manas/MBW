@@ -50,7 +50,7 @@ export function Hero() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="font-serif text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-white leading-tight mb-6"
           >
-            <span className="text-[#D4AF37]">Optimas</span> Legal Partners
+            <span className="">Optimas</span> Legal Partners
           </motion.h1>
 
           <motion.p
