@@ -16,7 +16,7 @@ const leaders = [
     name: "Sanjana Sharan",
     role: "Director  & Strategic Advisor",
     image: "/images/sanjana-sharan.jpeg",
-    description: "Brings a strategic, client-focused perspective with expertise in business advisory, client relationship management, and operational structuring. She drives client engagement, strategic planning, and seamless delivery of legal and business solutions - combining strategic thinking with operational efficiency.",
+    description: "Brings a strategic, client focused perspective with expertise in business advisory, client relationship management, and operational structuring. She drives client engagement, strategic planning, and seamless delivery of legal and business solutions - combining strategic thinking with operational efficiency.",
   },
 ]
 
