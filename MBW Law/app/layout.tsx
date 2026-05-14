@@ -16,9 +16,11 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Optimas Legal Partners | Strategic Legal Advisory',
-  description: 'Boutique legal excellence across the UAE and international markets. Strategic Legal Advisory, Corporate Structuring, and Dispute Resolution.',
-  generator: 'v0.app',
+  title: 'Optimas Legal Partners',
+  description: 'Your trusted legal firm',
+  verification: {
+    google: 'gSoX0I1zy5iK38ODX1OTQw25MhRV9jdnwJ9QMewR4vw',
+  },
   icons: {
     icon: [
       {
