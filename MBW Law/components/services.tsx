@@ -23,21 +23,25 @@ const mainServices = [
     icon: Building2,
     title: "Corporate & Commercial",
     description: "Structuring, JVs, M&A, shareholder agreements, and commercial contracts.",
+    slug: "corporate-commercial",
   },
   {
     icon: Scale,
     title: "Dispute Resolution",
     description: "Strategic representation in UAE courts and arbitration forums.",
+    slug: "dispute-resolution",
   },
   {
     icon: Landmark,
     title: "Finance & Banking",
     description: "Financial Transactions, Regulatory Compliance, and Banking Disputes.",
+    slug: "finance-banking",
   },
   {
     icon: FileText,
     title: "Retainer Services",
     description: "Ongoing legal support for day-to-day operations and risk mitigation.",
+    slug: "retainer-services",
   },
 ]
 
@@ -120,7 +124,7 @@ export function Services() {
                 {service.description}
               </p>
               <Link
-                href="#contact"
+                href={`/services/${service.slug}`}
                 className="inline-flex items-center gap-1 text-[#D4AF37] text-sm font-medium hover:gap-2 transition-all"
               >
                 Learn More <ArrowRight className="w-4 h-4" />
