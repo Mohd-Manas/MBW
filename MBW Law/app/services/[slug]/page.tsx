@@ -57,6 +57,10 @@ const servicePages: Record<string, {
   },
 }
 
+export function generateStaticParams() {
+  return Object.keys(servicePages).map((slug) => ({ slug }))
+}
+
 export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
   const page = servicePages[params.slug]
 
