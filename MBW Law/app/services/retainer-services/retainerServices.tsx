@@ -23,7 +23,7 @@ export default function RetainerServicesPage() {
         <div className="container mx-auto px-4 lg:px-8 max-w-3xl">
           <h2 className="font-serif text-4xl text-[#1E3A5F] mb-6">Your Dedicated Legal Partner, On Demand</h2>
           <p className="text-lg text-[#4A5568] leading-relaxed">
-            Recognizing the imperative for continuous and proactive legal support in today\'s rapidly evolving business landscape, we offer bespoke <strong>Retainer Legal Services</strong>. These services are meticulously designed to provide ongoing legal assistance for daily operational requirements and strategic risk mitigation.
+            Recognizing the imperative for continuous and proactive legal support in today's rapidly evolving business landscape, we offer bespoke <strong>Retainer Legal Services</strong>. These services are meticulously designed to provide ongoing legal assistance for daily operational requirements and strategic risk mitigation.
           </p>
         </div>
       </section>
