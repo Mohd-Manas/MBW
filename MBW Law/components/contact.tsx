@@ -17,12 +17,35 @@ export function Contact() {
     message: "",
   })
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    // Handle form submission
-    console.log("Form submitted:", formData)
-    alert("Thank you for your message. We will contact you shortly!")
-    setFormData({ name: "", email: "", phone: "", service: "", message: "" })
+
+    const submissionData = new FormData()
+    submissionData.append("name", formData.name)
+    submissionData.append("email", formData.email)
+    submissionData.append("phone", formData.phone)
+    submissionData.append("service", formData.service)
+    submissionData.append("message", formData.message)
+
+    try {
+      await fetch("https://formsubmit.co/ajax/hilalmohd108@gmail.com", {
+        method: "POST",
+        body: submissionData,
+      })
+
+      alert("Thank you for your message. We will contact you shortly!")
+    } catch (error) {
+      const subject = encodeURIComponent(
+        `New enquiry from ${formData.name || "Client"}`
+      )
+      const body = encodeURIComponent(
+        `Name: ${formData.name}\nEmail: ${formData.email}\nPhone: ${formData.phone || "Not provided"}\nService: ${formData.service || "Not selected"}\n\nMessage:\n${formData.message}`
+      )
+
+      window.location.href = `mailto:hilalmohd108@gmail.com?subject=${subject}&body=${body}`
+    } finally {
+      setFormData({ name: "", email: "", phone: "", service: "", message: "" })
+    }
   }
 
   const handleChange = (
