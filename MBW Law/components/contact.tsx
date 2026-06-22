@@ -203,10 +203,12 @@ export function Contact() {
                 <div>
                   <h4 className="font-semibold text-[#1E3A5F] mb-1">Email</h4>
                   <a 
-                    href="mailto:info@optimaslegal.com"
+                    // href="mailto:info@optimaslegal.com"
+                    href="mailto:hilalmohd108@gmail.com"
                     className="text-[#4A5568] text-sm hover:text-[#D4AF37] transition-colors"
                   >
-                    info@optimaslegal.com
+                    {/* info@optimaslegal.com */}
+                    hilalmohd108@gmail.com
                   </a>
                 </div>
               </div>

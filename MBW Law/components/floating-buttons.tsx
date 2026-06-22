@@ -15,11 +15,11 @@ export function FloatingButtons() {
         className="fixed bottom-6 left-6 z-50"
       >
         <Link
-          href="https://wa.me/1234567890"
+          href="https://wa.me/+971585944811"
           target="_blank"
           rel="noopener noreferrer"
           className="w-14 h-14 bg-[#25D366] hover:bg-[#1EBE5A] rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-300 group"
-          aria-label="Contact us on WhatsApp"
+          aria-label="Sanjana"
         >
           <MessageCircle className="w-7 h-7 text-white" />
           <span className="absolute left-full ml-3 bg-[#1E3A5F] text-white text-sm px-3 py-1.5 rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
