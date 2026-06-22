@@ -28,7 +28,7 @@ export function Contact() {
     submissionData.append("message", formData.message)
 
     try {
-      await fetch("https://formsubmit.co/ajax/hilalmohd108@gmail.com", {
+      await fetch("https://formsubmit.co/ajax/Sanjana@optimaslegal.com", {
         method: "POST",
         body: submissionData,
       })
@@ -42,7 +42,7 @@ export function Contact() {
         `Name: ${formData.name}\nEmail: ${formData.email}\nPhone: ${formData.phone || "Not provided"}\nService: ${formData.service || "Not selected"}\n\nMessage:\n${formData.message}`
       )
 
-      window.location.href = `mailto:hilalmohd108@gmail.com?subject=${subject}&body=${body}`
+      window.location.href = `mailto:Sanjana@optimaslegal.com?subject=${subject}&body=${body}`
     } finally {
       setFormData({ name: "", email: "", phone: "", service: "", message: "" })
     }
@@ -227,11 +227,11 @@ export function Contact() {
                   <h4 className="font-semibold text-[#1E3A5F] mb-1">Email</h4>
                   <a 
                     // href="mailto:info@optimaslegal.com"
-                    href="mailto:hilalmohd108@gmail.com"
+                    href="mailto:Sanjana@optimaslegal.com"
                     className="text-[#4A5568] text-sm hover:text-[#D4AF37] transition-colors"
                   >
                     {/* info@optimaslegal.com */}
-                    hilalmohd108@gmail.com
+                    Sanjana@optimaslegal.com
                   </a>
                 </div>
               </div>
